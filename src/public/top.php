@@ -2,7 +2,7 @@
 $tweets = [
     [
         'id' => 1,
-        'userName' => 'さとう',
+        'userName' => 'すずき',
         'tweets' => 'お腹すいた',
         'created_at' => '2022/10/22',
     ],
