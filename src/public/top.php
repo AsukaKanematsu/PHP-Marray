@@ -1,5 +1,5 @@
 <?php
-$tweets = [
+$tweetlist = [
     [
         'id' => 1,
         'userName' => 'すずき',
@@ -44,7 +44,7 @@ $tweets = [
             <button type="button">戻る</button>
         </a>
         <ol >
-            <?php foreach ($tweets as $tweet): ?>
+            <?php foreach ($tweetlist as $tweet): ?>
                 <li class="border-l-2 border-purple-600">
                     <div class="md:flex flex-start">
                     <div class="bg-purple-600 w-6 h-6 flex items-center justify-center rounded-full -ml-3.5">
